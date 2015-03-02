@@ -17,6 +17,25 @@
 
 @implementation AppDelegate
 
+/*
+1.提供显示内容的图层类CALayer->
+                     CAEAGLLayer
+                     CAScrollLayer
+                     CATiledLayer
+                     CATextLayer
+                     CAOpenGLLayer
+2.动画和计时类CAAnimation-> 
+                 CAAnimationGroup
+                 CAPropertyAnimation->
+                              CABasicAnimation
+                              CAKeyframeAnimation
+                 CATransition
+3.布局和约束类CAConstraint
+4.事务类CATransaction
+ 
+ 
+*/
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

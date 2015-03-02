@@ -341,6 +341,7 @@ void swap2(int *a, int *b){
     emitter.emitterCells = @[cell];
 }
 
+//增量显示大型的图片
 -(void)test9{
     CATiledLayer *tileLayer = [CATiledLayer layer];
     tileLayer.frame = CGRectMake(0, 0, 256 * 11, 256 * 6);
